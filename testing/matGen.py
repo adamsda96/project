@@ -29,7 +29,7 @@ for i in range(n):
 f.close()
 
 f = open("test.par","w")
-f.write("POOL\n120 120 120 3e-08 3e-08 3e-08 3-08\n\n")
+f.write("POOL\n120 120 120 3e-08 3e-08 3e-08\n\n")
 
 f.write("COMP\n1200\n\n")
 
