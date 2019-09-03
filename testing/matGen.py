@@ -55,7 +55,7 @@ f.write("BOUNDARY_ALL\nliao\n\n")
 
 f.write("MBOUNDARY_X0\nperiodic 10\n\n")
 
-f.write("MBOUNDARY_XN\nperiadic 110\n\n")
+f.write("MBOUNDARY_XN\nperiodic 110\n\n")
 
 f.write("MBOUNDARY_Y0\nperiodic 10\n\n")
 
@@ -71,7 +71,7 @@ f.write("OUT_IMAGE\nEy 200 -1 60 -1 ey_xz\n\n")
 
 f.write("OUT_IMAGE\nEY 200 -1 -1 60 ey_xy\n\n")
 
-f.write("OUT_IMAGE\n Ey 200 -1 -1 80 ey_xy_2\n\n")
+f.write("OUT_IMAGE\nEy 200 -1 -1 80 ey_xy_2\n\n")
 
 f.write("PERIODIC_NFFF\n10 10 10 110 110 110 -1 -1 2 2\n\n")
 

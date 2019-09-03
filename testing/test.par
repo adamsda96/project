@@ -38,7 +38,7 @@ MBOUNDARY_X0
 periodic 10
 
 MBOUNDARY_XN
-periadic 110
+periodic 110
 
 MBOUNDARY_Y0
 periodic 10
@@ -62,7 +62,7 @@ OUT_IMAGE
 EY 200 -1 -1 60 ey_xy
 
 OUT_IMAGE
- Ey 200 -1 -1 80 ey_xy_2
+Ey 200 -1 -1 80 ey_xy_2
 
 PERIODIC_NFFF
 10 10 10 110 110 110 -1 -1 2 2
