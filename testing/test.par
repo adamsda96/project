@@ -17,7 +17,7 @@ UGPU
 0
 
 SOURCE_TSF
-5 5 5 115 115 0 0 0 2 5e-07 100 1
+5 5 5 115 115 115 0 0 0 2 5e-07 100 1
 
 TSF_SKIP
 i0
@@ -53,13 +53,13 @@ OUT_FILE
 out.gwy
 
 OUT_IMAGE
-Ey 200 -1 -1 ey_yz
+Ey 200 60 -1 -1 ey_yz
 
 OUT_IMAGE
 Ey 200 -1 60 -1 ey_xz
 
 OUT_IMAGE
-EY 200 -1 -1 60 ey_xy
+Ey 200 -1 -1 60 ey_xy
 
 OUT_IMAGE
 Ey 200 -1 -1 80 ey_xy_2

@@ -14,7 +14,7 @@ endz = 70
 
 n = 1
 
-props = ["8 30 30 50 90 90 70 1 1 1 0 0"]
+props = ["1 1 1 0 0"]
 for i in range(n):
     xpos1 = str(startx + i*(endx - startx)/n)
     xpos2 = str(startx + (i+1)*(endx - startx)/n)
@@ -41,7 +41,7 @@ f.write("GPU\n1\n\n")
 
 f.write("UGPU\n0\n\n")
 
-f.write("SOURCE_TSF\n5 5 5 115 115 0 0 0 2 5e-07 100 1\n\n")
+f.write("SOURCE_TSF\n5 5 5 115 115 115 0 0 0 2 5e-07 100 1\n\n")
 
 f.write("TSF_SKIP\ni0\n\n")
 
@@ -65,11 +65,11 @@ f.write("MEDIUM_VECTOR\nmaterial.mat\n\n")
 
 f.write("OUT_FILE\nout.gwy\n\n")
 
-f.write("OUT_IMAGE\nEy 200 -1 -1 ey_yz\n\n")
+f.write("OUT_IMAGE\nEy 200 60 -1 -1 ey_yz\n\n")
 
 f.write("OUT_IMAGE\nEy 200 -1 60 -1 ey_xz\n\n")
 
-f.write("OUT_IMAGE\nEY 200 -1 -1 60 ey_xy\n\n")
+f.write("OUT_IMAGE\nEy 200 -1 -1 60 ey_xy\n\n")
 
 f.write("OUT_IMAGE\nEy 200 -1 -1 80 ey_xy_2\n\n")
 
@@ -80,7 +80,3 @@ f.write("PERIODIC_NFFF_SPHERICAL_AREA\n60 74 10000 0 0 1.5708 6.28319 0")
 f.close()
 
 os.system("gsvit test.par")
-
-os.system("git commit . -m 'test results'")
-
-os.system("git push")
