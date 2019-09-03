@@ -1,4 +1,4 @@
-
+import os
 
 f = open("material.mat","w")
 
@@ -72,3 +72,11 @@ f.write("OUT_IMAGE\n Ey 200 -1 -1 80 ey_xy_2\n\n")
 f.write("PERIODIC_NFFF\n10 10 10 110 110 110 -1 -1 2 2\n\n")
 
 f.write("PERIODIC_NFFF_SPHERICAL_AREA\n60 74 10000 0 0 1.5708 6.28319 0")
+
+f.close()
+
+os.system("gsvit test.par")
+
+os.system("git commit . -m 'test results'")
+
+os.system("git push")
