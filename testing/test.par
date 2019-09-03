@@ -7,6 +7,9 @@ COMP
 VERBOSE
 1
 
+THREADS
+-1
+
 GPU
 1
 
@@ -24,6 +27,9 @@ in
 
 TSF_SKIP
 j0
+
+TSF_SKIP
+jn
 
 BOUNDARY_ALL
 liao

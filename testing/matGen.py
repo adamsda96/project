@@ -35,6 +35,8 @@ f.write("COMP\n1200\n\n")
 
 f.write("VERBOSE\n1\n\n")
 
+f.write("THREADS\n-1\n\n")
+
 f.write("GPU\n1\n\n")
 
 f.write("UGPU\n0\n\n")
@@ -46,6 +48,8 @@ f.write("TSF_SKIP\ni0\n\n")
 f.write("TSF_SKIP\nin\n\n")
 
 f.write("TSF_SKIP\nj0\n\n")
+
+f.write("TSF_SKIP\njn\n\n")
 
 f.write("BOUNDARY_ALL\nliao\n\n")
 
