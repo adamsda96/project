@@ -53,7 +53,7 @@ OUT_FILE
 out.gwy
 
 OUT_PLANE
-Ey 10 0 1000 1 -1 60 -1 yz_plane
+Cur 10 0 1000 0 -1 60 -1 yz_plane_current
 
 OUT_IMAGE
 Ey 10 60 -1 -1 ey_yz
