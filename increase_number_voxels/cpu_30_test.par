@@ -1,0 +1,71 @@
+POOL
+30.0 30.0 30.0 1.2e-07 1.2e-07 1.2e-07 
+
+COMP
+1200
+
+VERBOSE
+1
+
+THREADS
+-1
+
+GPU
+0
+
+UGPU
+0
+
+SOURCE_TSF
+1.25 1.25 1.25 28.75 28.75 28.75 0 0 0 2 5e-07 100 1
+
+TSF_SKIP
+i0
+
+TSF_SKIP
+in
+
+TSF_SKIP
+j0
+
+TSF_SKIP
+jn
+
+BOUNDARY_ALL
+liao
+
+MBOUNDARY_X0
+periodic 2.5
+
+MBOUNDARY_XN
+periodic 27.5
+
+MBOUNDARY_Y0
+periodic 2.5
+
+MBOUNDARY_YN
+periodic 27.5
+
+MEDIUM_VECTOR
+30_material.mat
+
+OUT_FILE
+cpu_30_out.gwy
+
+OUT_IMAGE
+Ey 200 15.0 -1 -1 ey_yz
+
+OUT_IMAGE
+Ey 200 -1 15.0 -1 ey_xz
+
+OUT_IMAGE
+Ey 200 -1 -1 15.0 ey_xy
+
+OUT_IMAGE
+Ey 200 -1 -1 20.0 ey_xy_2
+
+PERIODIC_NFFF
+ 2.5 2.5 2.5 27.5 27.5 27.5 -1 -1 2 2
+
+PERIODIC_NFFF_SPHERICAL_AREA
+15.0 18.5 2500.0 0 0 1.5708 6.28319 0

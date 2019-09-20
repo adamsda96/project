@@ -1,5 +1,5 @@
 POOL
-300 300 300 3e-08 3e-08 3e-08
+120.0 120.0 120.0 3e-08 3e-08 3e-08 
 
 COMP
 1200
@@ -17,7 +17,7 @@ UGPU
 0
 
 SOURCE_TSF
-12.5 12.5 12.5 287.5 287.5 287.5 0 0 0 2 5e-07 100 1
+5.0 5.0 5.0 115.0 115.0 115.0 0 0 0 2 5e-07 100 1
 
 TSF_SKIP
 i0
@@ -35,39 +35,37 @@ BOUNDARY_ALL
 liao
 
 MBOUNDARY_X0
-periodic 10
+periodic 10.0
 
 MBOUNDARY_XN
-periodic 110
+periodic 110.0
 
 MBOUNDARY_Y0
-periodic 10
+periodic 10.0
 
 MBOUNDARY_YN
-periodic 110
+periodic 110.0
 
 MEDIUM_VECTOR
-grating.mat
+material.mat
 
 OUT_FILE
 out.gwy
 
 OUT_IMAGE
-Ey 200 150 -1 -1 ey_yz
+Ey 200.0 60.0 -1 -1 ey_yz
 
 OUT_IMAGE
-Ey 200 -1 150 -1 ey_xz
+Ey 200.0 -1 60.0 -1 ey_xz
 
 OUT_IMAGE
-Ey 200 -1 -1 150 ey_xy
+Ey 200.0 -1 -1 60.0 ey_xy
 
 OUT_IMAGE
-Ey 200 -1 -1 200 ey_xy_2
+Ey 200.0 -1 -1 80.0 ey_xy_2
 
 PERIODIC_NFFF
-25 25 25 275 275 275 -1 -1 2 2
+ 10.0 10.0 10.0 110.0 110.0 110.0 -1 -1 2 2
 
 PERIODIC_NFFF_SPHERICAL_AREA
-150 187.5 25000 0 0 1.5708 6.28319 0
-
-
+60.0 74.0 10000.0 0 0 1.5708 6.28319 0
