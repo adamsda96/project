@@ -20,9 +20,9 @@ class matGen:
 
         endx = 75/self.defDim*self.dim
         endy = 61.2/self.defDim*self.dim
-        endz = 75/self.defDim*self.dim
+	endz = 75/self.defDim*self.dim
 
-        props = ["1 1 1 0 0","1 1 1 0 0","1 1 1 0 0","1 1 1 0 0","99 Si_100"]
+        props = ["1 1 1 0 0","1 1 1 0 0","1 1 1 0 0","1 1 1 0 0"]
         
         nx = self.nx
         ny = self.ny
